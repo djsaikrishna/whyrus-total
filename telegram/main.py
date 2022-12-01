@@ -8,7 +8,7 @@ import time
 from telegraph import Telegraph
 
 # bot
-bot_token = os.environ.get("TOKEN", "5787656481:AAHnsTU60kn4QHTWbm62drC6Lo-DYPgYbTY") 
+bot_token = os.environ.get("TOKEN", "5613265054:AAEbRdi0kqh9S0C2pWqoTTuhjUseU5EsEzY") 
 api_hash = os.environ.get("HASH", "dddd64edfc5326e4a35e448347b83e2d") 
 api_id = os.environ.get("ID", "15882573")
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
